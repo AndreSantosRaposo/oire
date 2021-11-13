@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "Nasa";
+    src:url(../fonte/nasa-fonte/nasalization-rg.otf)
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --cor-fundo:rgb(212, 212, 212);
+}
+#quem-somos-container{
+    margin: auto;
+    width: 54rem;
+    box-shadow: rgba(0, 0, 0, 0.603) 1px 2px 5px 2px;
+    margin-top:1.9rem;
+}
+#quem-somos{
+    padding: 0rem 0.7rem 0.7rem 0.7rem;
+}
+#titulo-principal{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0.5rem;
+}
+#text-quem-somos{
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size:1.1rem;
+}
+#divisor{
+    margin-top: 3rem;
+    margin: 3rem auto 0rem auto;
+    height: 0.3rem;
+    background-color: purple;
+    width: 90%;
+}
+#titulo-parte2{
+    margin: 0.5rem auto 0rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "nasa",Arial, Helvetica, sans-serif;
+}
+#principios{
+    margin: 0rem auto 0rem auto;
+    width: 80%;
+    padding:1rem 0rem 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.foto-container{
+    display: flex;
+    justify-content: center;
+}
+.titulo-principio{
+    text-align: center;
+}
+.foto-principios{
+    height: 300px;
+}

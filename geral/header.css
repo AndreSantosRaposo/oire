@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+:root{
+    --cor-um:#0E67B4;
+    --cor-dois:#0e61aa;
+}
+#header{
+    background-color: var(--cor-um);
+}
+#header-container{
+  display: flex;  
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+#logo-principal{
+    height: auto;
+    padding: 0.8rem 0rem;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: end;
+    width: 30rem;
+    margin:0rem 4rem 0rem 0rem;
+}
+.link-nav{
+    font-size: 1.1rem;
+    color:white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 2.3rem;
+    position: relative;
+    border-bottom:5px solid transparent;
+}
+.link-nav:hover{
+    border-bottom:white solid 5px;
+}
+#dropdown-container{
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 1.7rem;
+    border: solid black 2px;
+    border-top: none;
+    background-color: var(--cor-dois);
+    border-radius: 2px 2px 5px 5px;
+}
+#sobre-nos:hover+#dropdown-container{
+    display: block;
+}
+#dropdown-container:hover{
+    display: block;
+}
+.dropdown-menu{
+    display:flex;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.dropdown-links{
+    font-size: 1.1rem;
+    color:white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0.7rem;
+    font-weight: bold;
+    padding: 0.4rem;
+    height: 1.5rem;
+}
+.dropdown-menu:hover{
+    background-color: #0e5797;
+}
+#first{
+    margin: 0rem;
+}
