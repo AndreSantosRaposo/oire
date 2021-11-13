@@ -35,7 +35,7 @@ body{
 }
 #noticias{
     width: 80%;
-    margin:2rem auto 0rem auto;
+    margin:2rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -71,4 +71,32 @@ body{
 .noticia-paragrafo{
     margin:1rem 0rem 0rem 0.5rem;
     font-size: 1.1rem;
+}
+
+@media(max-width:1400px){
+    #noticias{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .noticia{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:1050px){
+    #noticias{
+        grid-template-columns: 1fr 1fr;
+    }
+    .noticia{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:800px){
+    #quote{
+        font-size: 1.5rem;
+    }
+    #noticias{
+        grid-template-columns: 1fr;
+    }
+    .noticia{
+        margin-bottom: 2rem;
+    }
 }
