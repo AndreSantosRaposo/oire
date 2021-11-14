@@ -76,19 +76,3 @@
 #first{
     margin: 0rem;
 }
-.butão{
-    position: absolute;
-    top:2.5rem;
-    right:3rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2rem;
-    height: 1.5rem;
-}
-.barra{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 5px;
-}
