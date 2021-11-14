@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Nasa";
+    src:url(../fonte/nasa-fonte/nasalization-rg.otf)
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --cor-fundo:rgb(241, 239, 239);
+    --cor-um:#0E67B4;
+    --cor-dois:#0e61aa;
+}
+body{
+    background-color: var(--cor-fundo);
+}

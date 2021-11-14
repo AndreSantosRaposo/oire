@@ -1,14 +1,3 @@
-@font-face{
-    font-family: "Nasa";
-    src:url(../fonte/nasa-fonte/nasalization-rg.otf)
-}
-*{
-    margin:0px;
-    padding: 0px;
-}
-:root{
-    --cor-fundo:rgb(212, 212, 212);
-}
 #quem-somos-container{
     margin: auto;
     width: 54rem;
