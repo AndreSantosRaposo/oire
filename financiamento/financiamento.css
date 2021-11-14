@@ -1,0 +1,33 @@
+main{
+    background-color:#F0EFF3;
+}
+#inicio{
+    height: 14rem;
+    background-image: url(../imagens/dinheiro/notas-dinheiro1200.jpg);
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+#imagem-de-fundo{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(20, 20, 190, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+#titulo{
+    text-align: center;
+    font-family:"Nasa",Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    border-left: 4px rgb(184, 105, 2) solid;
+    padding-left: 2.5rem;
+}
+#grafico-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+#grafico{
+    box-shadow: rgba(36, 36, 36, 0.473) 1px 0.5px 1px 1px;
+}
