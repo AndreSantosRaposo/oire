@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#introdução{
+    width: 100%;
+    height: 14rem;
+    padding-bottom: 2rem;
+    background-image:url(../imagens/estrutura/equipa1400.jpg)
+}
+#imagem-cor{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+    background-color:rgba(20, 20, 190, 0.541);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#titulo-principal{
+    font-family:"Nasa",Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    border-left: 4px rgb(184, 105, 2) solid;
+    padding-left: 2.5rem;
+}
+#diretora-geral-posição{
+    text-align:center;
+    margin-top: 0.8rem;
+    font-size:2rem
+}
+#diretora-geral-nome{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+}
+#diretora-geral-imagem-container{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+#diretora-geral-imagem{
+    height:23rem;
+}
+#diretores-assistentes{
+    margin-top:3rem;
+    width:99%;
+    margin:3rem auto 0rem auto;
+    margin-bottom: 2rem;
+}
+#diretores-assistentes > h2{
+    text-align:center;
+    font-size:2rem;
+}
+#diretores-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top:1rem;
+}
+.diretor{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(148, 148, 148, 0.527) 1px 1px 1px 1px;
+    padding: 1rem 0rem;
+    box-shad
+}
+.diretor-imagem{
+    height: 20rem;
+}

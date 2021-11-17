@@ -42,7 +42,7 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.466) 1px 1px 5px 1px;
     border-radius: 10px 10px 10px 10px;
-    height: 23.7rem;
+    height: 100%;
 }
 .noticia:hover{
     cursor: pointer;

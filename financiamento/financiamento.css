@@ -17,7 +17,6 @@ main{
     padding-bottom: 1rem;
 }
 #titulo{
-    text-align: center;
     font-family:"Nasa",Arial, Helvetica, sans-serif;
     font-size: 3rem;
     border-left: 4px rgb(184, 105, 2) solid;
