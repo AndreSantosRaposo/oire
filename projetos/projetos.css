@@ -1,0 +1,91 @@
+#body{
+    background-color: #0B1D26;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#introdução{
+    background-image:url(../imagens/projetos/introdução420.jpg);
+    height: 14rem;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+#cor-imagem{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(19, 19, 97, 0.774);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+#titulo-principal{
+    font-family:"Nasa",Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    border-left: 4px rgb(184, 105, 2) solid;
+    padding-left: 2.5rem;
+}
+#projetos-container{
+    margin:1rem auto 0rem auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width: 90%;
+}
+.projeto-container{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(1, 62, 88);
+    margin: 3rem auto 5rem auto;
+    box-shadow: #06111683 2px 1px 1px 1px;
+    transition: transform 150ms ease-in 5ms;
+}
+.projeto-container:hover{
+    cursor:pointer;
+    transform: translateY(-10px);
+}
+.imagem-container{
+    height: 88%;
+    background-position: center center;
+}
+.imagem-cor{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.informações{
+    height: 40%;
+    margin:0rem 0.7rem 3rem 1.5rem;
+    display:flex;
+    align-items:flex-start
+}
+.categoria{
+    text-align:center;
+    width: fit-content;
+    color: white;
+    margin-bottom: 0.9rem;
+    font-weight:bolder;
+    border-radius:1px;
+    padding:0.2rem 0.5rem;
+}
+.nome-projeto{
+    background-color:transparent;
+    color: white;
+}
+.descrição{
+    color: white;
+    font-family:sans-serif,Arial, Helvetica;
+    margin-top: 0.8rem;
+}
+.clicar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 62, 88);
+    height: 59px;
+    padding-bottom:0.1rem;
+}
+.abrir{
+    text-align: center;
+    margin-left:1rem;
+    color:white;
+    font-size:1.3rem;
+    font-weight: lighter;
+}
