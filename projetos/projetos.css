@@ -1,6 +1,7 @@
 #body{
     background-color: #0B1D26;
     font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 #introdução{
     background-image:url(../imagens/projetos/introdução420.jpg);
@@ -100,6 +101,80 @@
     margin-right:0.6rem;
 }
 
+
+#artemis-descrição{
+    display:none;
+
+}
+#james-web-descrição{
+    display: none;
+}
+.descrição-imagem{
+    height: 80vh;
+    padding:10vh 0vh;
+    width: 65%;
+}
+.descrição-conteudo{
+    background-color: rgb(228, 228, 228);
+    width:100%;
+    padding:1.5rem 2rem 1.5rem 3rem;
+}
+.sair-container{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top:1rem;
+}
+.cruz{
+    cursor: pointer;
+    transition:transform 200ms linear;
+}
+.cruz:hover{
+    transform: scale(1.2,1.2);
+}
+.descrição-categoria{
+    width: fit-content;
+    color: white;
+    margin:2rem 0rem;
+    font-weight:bolder;
+    border-radius:1px;
+    padding:0.2rem 1rem;
+    background-color:rgb(237,27,47);
+}
+.descrição-titulo{
+    color: rgb(49, 49, 134);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:2.5rem;
+}
+.descrição-texto{
+    margin-top:1.5rem;
+    font-size:1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.verificar-projeto{
+    margin:1rem;
+    font-size:1.1rem;
+}
+.link-projeto{
+    color: rgb(49, 49, 134);
+    text-decoration: none;
+}
+.link-projeto:hover{
+    text-decoration:underline rgb(49, 49, 134);
+}
+
+
+
+
+
+@media(max-width:1450px){
+    #projetos-container{
+        width:95%
+    }
+    .projeto-container{
+        width: 95%;
+    }
+}
 @keyframes arrow{
     100%{
         transform: translateX(15px);

@@ -25,12 +25,13 @@
     margin: 2rem auto 2rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
 }
 .parceiros{
     display: flex;
     width: 180px;
     justify-content: center;
-    margin-bottom:2rem;
+    margin: 0rem auto 2rem auto;
 }
 .conteudo-container{
     box-shadow: rgba(0, 0, 0, 0.637) 1px 1px 1px 1px;

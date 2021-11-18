@@ -62,30 +62,9 @@
     font-size: 1.1rem;
 }
 
-@media(max-width:1400px){
+
+@media(max-width:1450px){
     #noticias{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .noticia{
-        margin-bottom: 2rem;
-    }
-}
-@media(max-width:1050px){
-    #noticias{
-        grid-template-columns: 1fr 1fr;
-    }
-    .noticia{
-        margin-bottom: 2rem;
-    }
-}
-@media(max-width:800px){
-    #quote{
-        font-size: 1.5rem;
-    }
-    #noticias{
-        grid-template-columns: 1fr;
-    }
-    .noticia{
-        margin-bottom: 2rem;
+        width: 90%;
     }
 }
